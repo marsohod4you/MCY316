@@ -1,0 +1,10 @@
+
+
+D:/altera/cyclone3/MCY316/Sound/MyPLL.v
+
+Jul 27 06PM:38:23>: Error in CNX file format.
+
+Error messages are listed in file
+D:/altera/cyclone3/MCY316/Sound/MyPLL.cnxerr.
+
+Can't create the custom megafunction variation file(s)
