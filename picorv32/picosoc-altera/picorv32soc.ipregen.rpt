@@ -1,0 +1,70 @@
+IP Upgrade report for picorv32soc
+Sun Jul 30 15:13:37 2023
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Failed Upgrade IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------+
+; IP Upgrade Summary                                                        ;
++------------------------------+--------------------------------------------+
+; IP Components Upgrade Status ; Failed - Sun Jul 30 15:13:37 2023          ;
+; Quartus II 64-Bit Version    ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                ; picorv32soc                                ;
+; Top-level Entity Name        ; TopModule                                  ;
+; Family                       ; Cyclone III                                ;
++------------------------------+--------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Failed Upgrade IP Components                                                                                                                                                                                                                                    ;
++--------+--------------------+---------+---------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Entity ; IP Components Name ; Version ; QIP File Path ; Variation File Path ; Message                                                                                                                                                                           ;
++--------+--------------------+---------+---------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; MyPLL  ; ALTPLL             ; 9.1     ; MyPLL.qip     ; MyPLL.v             ; Upgrade failed. The MegaWizard Plug-In Manager cannot open due to an error. Refer to the error log file "qmegawiz_errors_log.txt" in your project directory to resolve the errors ;
++--------+--------------------+---------+---------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11837): Started upgrading IP component ALTPLL with file "MyPLL.v"
+Info (11902): Backing up file "MyPLL.v" to "MyPLL_BAK.v"
+Info (11904): Restoring file "MyPLL_BAK.v" to "MyPLL.v"
+Error (11133): IP component ALTPLL with file "MyPLL.v" upgrade failed
+Error (11889): IP component upgrade failed
+Error (23031): Evaluation of Tcl script d:/altera/13.1/quartus/common/tcl/internal/ip_regen/ip_regen.tcl unsuccessful
+Error: Quartus II 64-Bit Shell was unsuccessful. 3 errors, 0 warnings
+    Error: Peak virtual memory: 4429 megabytes
+    Error: Processing ended: Sun Jul 30 15:13:37 2023
+    Error: Elapsed time: 00:00:01
+    Error: Total CPU time (on all processors): 00:00:01
+
+
