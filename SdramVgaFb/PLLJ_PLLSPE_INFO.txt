@@ -1,0 +1,5 @@
+PLL_Name	clocks:u_clocks|CPLL:u_pll|altpll:altpll_component|CPLL_altpll:auto_generated|pll1
+PLLJITTER	29
+PLLSPEmax	84
+PLLSPEmin	-53
+
