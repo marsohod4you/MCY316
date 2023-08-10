@@ -136,7 +136,10 @@ always @(posedge clk50)
 	else
 		counter <= counter+1;
 
-assign led = {
+assign led = |gpio_a_r? gpio_a_i:
+				 |gpio_b_r? gpio_b_i:
+				 |gpio_c_r? {gpio27_i,gpio26_i,gpio25_i,gpio24_i}:
+ {
 			counter[24],
 			counter[25],
 			counter[26],
