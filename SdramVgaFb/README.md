@@ -16,7 +16,8 @@
 >python img2serial COM22 cat5.jpg 100 200
 
 На экране монитора будет картинка:
-![MCY316+VGA photo](../images/bfcats.jpg "MCY316 FPGA board photo")
+
+![MCY316 VGA photo](../images/fbcats.jpg "MCY316 FPGA board photo")
 
 Этот проект портирован из проекта предыдущей платы MCY112:
 https://marsohod.org/projects/mcy112-prj/429-vga-framebuffer-mcy112
