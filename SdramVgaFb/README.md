@@ -18,4 +18,6 @@
 На экране монитора будет картинка:
 ![MCY316+VGA photo](../images/bfcats.jpg "MCY316 FPGA board photo")
 
+Этот проект портирован из проекта предыдущей платы MCY112:
+https://marsohod.org/projects/mcy112-prj/429-vga-framebuffer-mcy112
 
