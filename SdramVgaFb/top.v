@@ -278,7 +278,9 @@ reg app_rd_valid_;
 always @(posedge w_mem_clk)
 	app_rd_valid_ <= app_rd_valid;
 
-`ifdef __ICARUS__ 
+`define USE_GENERIC 1
+
+`ifdef USE_GENERIC //__ICARUS__ 
 generic_fifo_dc_gray #( .dw(32), .aw(8) ) u_generic_fifo_dc_gray (
 	.rd_clk(w_video_clk),
 	.wr_clk(w_mem_clk),
